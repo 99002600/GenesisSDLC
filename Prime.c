@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include"fact.h"
 int main() {
     int n, i, flag = 0;
     printf("Enter a positive integer: ");
@@ -22,10 +23,10 @@ int main() {
         else
             printf("%d is not a prime number.", n);
     }
-     int n;
+    long int m;
     printf("Enter a positive integer: ");
-    scanf("%d",&n);
-    printf("Factorial of %d = %ld", n, multiplyNumbers(n));   
+    scanf("%d",&m);
+    printf("Factorial of %d = %ld", m, multiplyNumbers(m));   
 }
     return 0;
 }
