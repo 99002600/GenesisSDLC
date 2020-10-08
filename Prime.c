@@ -23,10 +23,10 @@ int main() {
         else
             printf("%d is not a prime number.", n);
     }
-    long int m;
+    int m;
     printf("Enter a positive integer: ");
     scanf("%d",&m);
     printf("Factorial of %d = %ld", m, multiplyNumbers(m));   
-}
+
     return 0;
 }
